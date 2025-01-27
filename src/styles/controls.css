@@ -1,0 +1,32 @@
+.controls {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 25px;
+}
+
+.controls h3 {
+  font-size: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icons span {
+  cursor: text;
+}
+
+@media (max-width: 600px) {
+  .controls h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .icons {
+    font-size: 25px;
+  }
+}
